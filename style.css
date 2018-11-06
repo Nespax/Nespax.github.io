@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: assassin;
+  src: url(assassin.ttf);
+}
+
+.bg {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  text-align: center;
+  background-image: url(naslovna.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+p {
+  margin-right: 90px;
+  margin-bottom: 0px;
+  align-self: flex-start;
+  text-align: center;
+  font-family: assassin;
+  font-weight: 800;
+  font-size: 3.3vw;
+}
+
+.kassandra {
+  align-self: center; 
+  transition: transform 0.6s ease;
+}
+
+.alexios {
+  align-self: center; 
+  transition: transform 0.6s ease;
+}
+
+.kassandra:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.alexios:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
